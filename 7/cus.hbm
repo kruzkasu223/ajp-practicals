@@ -1,0 +1,18 @@
+    <?xml version="1.0"?>  
+    <!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+    <hibernate-mapping>  
+      <class name="mypack.Cus" table="cus">  
+                   <id name="cno" type="int" column="cno" >  
+                   <generator class="assigned"/>             
+                  </id>  
+      
+                  <property name="cname">  
+                             <column name="cname" />  
+                  </property>  
+                  <property name="add">  
+                            <column name="add"/>  
+                  </property>  
+                  </class>  
+    </hibernate-mapping>  
